@@ -1,51 +1,43 @@
-# Esimese taseme pealkiri
-## Teise taseme pealkiri
-### Kolmanda taseme pealkiri
+# 1. osa — Pannkookide põhivalmistamine
 
-Loetelu:
-- üks
-- kaks
-- kolm
-    - kolm koma neliteist
-- neli
+## 🥣 Koostisosad
 
-**Paks kiri**
+| Koostisosa             | Kogus  | Märkus                    |
+|------------------------|--------|---------------------------|
+| Nisu- või täisterajahu | 200 g  | Võib segada pooleks       |
+| Muna                   | 2 tk   | Toasoe                    |
+| Piim                   | 300 ml | Sobib ka taimse piimaga   |
+| Suhkur                 | 2 sl   | Vastavalt maitsele        |
+| Sool                   | Näpuots|                           |
+| Küpsetuspulber         | 1 tl   |                           |
+| Või või õli            | -      | Praadimiseks              |
 
-*kaldkiri*
+---
 
-`tekstisisene koodiblokk`
+## 🧮 Arvutus
 
-Pikem koodiblokk:
-~~~cpp
-void loop(){
-    Serial.println("Tere Maailm!");
-}
-~~~
+Pannkoogi paksuse \( t \) (millimeetrites) ligikaudne hindamine:
 
-Pilt:
-
-![See on pildi kirjeldus](meedia/git.png)
-
-Link repo sees:
-[README](../README.md)
-
-Link repost välja:
-[github.com](https://github.com/)
-
-Link ankrule:
-[Kolmanda taseme pealkiri](#Kolmanda-taseme-pealkiri)
-
-LaTeX avaldis eraldi blokina:
 $$
-R = \frac{U}{I}
+t = \frac{V}{\pi r^2}
 $$
 
-LateX avaldis samal real $R = \frac{U}{I}$.
+kus:
+- \( V \) — taigna maht ühele pannkoogile (ml)
+- \( r \) — pannkoogi raadius (cm)
+- \( $\pi$ $\approx$ 3.14159 \)
 
-Tabel:
+---
 
-| Komponent      | Kirjeldus                 | Märkused               |
-|:---------------|:-------------------------:|------------------------:|
-| LED            | Valgusdiood               | Kontrolli polaarsust   |
-| Takisti        | Piirab voolu LED-is       | Nt 220 Ω või 330 Ω     |
-| Arduino UNO    | Mikrokontrollerplaat      | Toidetakse USB kaudu   |
+## 🔄 Valmistamise vooskeem
+
+```mermaid
+flowchart TD
+    A[Alusta] --> B[Valmista tainas]
+    B --> C[Kuummuta pann]
+    C --> D[Lisa tainas pannile]
+    D --> E[Oota kuni servad on pruunid]
+    E --> F[Pööra pannkook]
+    F --> G[Prae teine pool kuldpruuniks]
+    G --> H[Serveeri moosi või siirupiga]
+    H --> I[Lõpp]
