@@ -37,6 +37,10 @@ Materjali edukalt läbinud õppija:
 2. [Gluteenivaba variant](materjalid/2_osa.md)
 3. [Lisasoovitused ja variatsioonid](materjalid/3_osa.md)
 
+## Lisajuhendid
+
+- [GitHub Copilot tokeni leidmine](materjalid/copilot_token.md)
+
 ## Õppematerjali koostajad
 
 Tanel Toova(tanel.toova@tlu.ee)
